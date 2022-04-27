@@ -103,7 +103,7 @@ button {
 
 .content {
   background-color: white;
-  padding-top: 32px;
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
@@ -112,6 +112,8 @@ button {
   font-weight: extra-bold;
   color: #1f2937;
   text-align: center;
+  padding: 0 0 32px 0;
+  margin: 0;
 }
 
 .bubbles {
@@ -121,6 +123,7 @@ button {
   text-align: center;
   gap: 64px;
   flex-wrap: wrap;
+  padding-bottom: 32px;
 }
 
 .bubble-container {
@@ -162,6 +165,34 @@ button {
   text-align: right;
   padding: 0;
   margin: 0;
+}
+
+.sign-up-block {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 32px 128px;
+  margin: 32px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up-block h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 4px 0;
+}
+
+.sign-up-block p {
+  margin: 0;
+  padding: 0;
+}
+
+.sign-up-block button {
+  border-style: solid;
+  border-color: #f9faf8;
 }
 
 .footer {

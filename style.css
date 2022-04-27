@@ -144,17 +144,6 @@ button {
 
 .quote-block {
   background-color: #e5e7eb;
-}
-
-.footer {
-  background-color: #1f2937;
-  color: #f9faf8;
-  text-align: center;
-  padding: 32px;
-  justify-self: end;
-}
-
-.quote-block {
   padding: 128px calc(var(--side-gutter) * 1.25);
 }
 
@@ -173,4 +162,12 @@ button {
   text-align: right;
   padding: 0;
   margin: 0;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 32px;
+  justify-self: end;
 }
